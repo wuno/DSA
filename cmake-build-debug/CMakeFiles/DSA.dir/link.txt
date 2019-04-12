@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/DSA.dir/main.cpp.o CMakeFiles/DSA.dir/src/BST/BST.cpp.o  -o DSA 

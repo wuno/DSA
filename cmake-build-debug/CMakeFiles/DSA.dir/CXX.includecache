@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wuno/Dropbox/Hack/Devops/c/DSA/main.cpp
+iostream
+-
+src/BST/BST.cpp
+/home/wuno/Dropbox/Hack/Devops/c/DSA/src/BST/BST.cpp
+
+/home/wuno/Dropbox/Hack/Devops/c/DSA/src/BST/BST.cpp
+iostream
+-
+cstdlib
+-
+iomanip
+-
+BST.h
+/home/wuno/Dropbox/Hack/Devops/c/DSA/src/BST/BST.h
+
+/home/wuno/Dropbox/Hack/Devops/c/DSA/src/BST/BST.h
+

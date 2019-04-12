@@ -1,0 +1,3 @@
+/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/DSA.dir
+/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/edit_cache.dir

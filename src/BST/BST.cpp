@@ -17,15 +17,26 @@ BST<TKEY, TDATA>::BST(BST<TKEY, TDATA> const &source)  {
 }
 
 template <class TKEY, class TDATA>
-BST<TKEY, TDATA>::BST(BST &&move) noexcept {
-    move.swap(*this);
+BST<TKEY, TDATA>& BST<TKEY, TDATA>::operator=(BST const &rhs) {
+    BST copy(rhs);
+    swap(copy);
+    return *this;
 }
 
+//template <class TKEY, class TDATA>
+//BST<TKEY, TDATA>::BST(BST &&move) noexcept {
+//    move.swap(*this);
+//}
+
+//template <class TKEY, class TDATA>
+//BST<TKEY, TDATA>& BST<TKEY, TDATA>::operator=(BST<TKEY, TDATA> &&move) noexcept {
+//    move.swap(*this);
+//    return *this;
+//}
+
 template <class TKEY, class TDATA>
-BST<TKEY, TDATA>& BST<TKEY, TDATA>::operator=(BST<TKEY, TDATA> &&move) noexcept {
-    std::cout << "This is not firing! Good cause it was confusing!" << std::endl;
-    move.swap(*this);
-    return *this;
+BST<TKEY, TDATA>::~BST() {
+    deleteTree(root);
 }
 
 template <class TKEY, class TDATA>
@@ -78,35 +89,42 @@ struct BST<TKEY, TDATA>::BSTNode* BST<TKEY, TDATA>::deleteNode(BSTNode* node, TK
     return node;
 }
 
-
 template <class TKEY, class TDATA>
 void BST<TKEY, TDATA>::deleteNode(TKEY key) {
     deleteNode(root, key);
 }
 
+// Remove this
+//template <class TKEY, class TDATA>
+//int BST<TKEY, TDATA>::getHeight(BSTNode *node) {
+//    if(node == NULL) return 1;
+//    int left = getHeight(node->left);
+//    int right = getHeight(node->right);
+//    return 1 + std::max(left, right);
+//}
+
+// Remove this
+//template <class TKEY, class TDATA>
+//void BST<TKEY, TDATA>::getHeight() {
+//    getHeight(root);
+//}
+
 template <class TKEY, class TDATA>
 int BST<TKEY, TDATA>::getHeight(BSTNode *node) {
-    if(node == NULL) return 1;
-    int left = getHeight(node->left);
-    int right = getHeight(node->right);
-    return 1 + std::max(left, right);
+    if (node == NULL) return 0;
+    return node->height;
 }
 
 template <class TKEY, class TDATA>
-void BST<TKEY, TDATA>::getHeight() {
-    getHeight(root);
+int BST<TKEY, TDATA>::getMax(int a, int b) {
+    return (a > b)? a : b;
 }
 
+// Get the balance factor of node
 template <class TKEY, class TDATA>
-BST<TKEY, TDATA>::~BST() {
-    deleteTree(root);
-}
-
-template <class TKEY, class TDATA>
-BST<TKEY, TDATA>& BST<TKEY, TDATA>::operator=(BST const &rhs) {
-    BST copy(rhs);
-    swap(copy);
-    return *this;
+int BST<TKEY, TDATA>::getBalance(BSTNode *node) {
+    if(node == NULL) return 0;
+    return getHeight(node->left) - getHeight(node->right);
 }
 
 template <class TKEY, class TDATA>
@@ -138,17 +156,96 @@ void BST<TKEY, TDATA>::copyTree(BSTNode *thisRoot, BSTNode *sourceRoot) {
 //}
 
 template <class TKEY, class TDATA>
-void BST<TKEY, TDATA>::insertNode(BSTNode *&node, const TKEY &theKey, const TDATA &theData) {
+struct BST<TKEY, TDATA>::BSTNode* BST<TKEY, TDATA>::leftRotate(BSTNode *node) {
+    if (node->right != NULL && node->right->left != NULL) {
+        BSTNode *nr = node->right;
+        BSTNode *nrl = nr->left;
+
+        // Rotate Nodes
+        nr->left = node;
+        node->right = nrl;
+
+        // Update Heights
+        node->height = getMax(getHeight(node->left), getHeight(node->right)) + 1;
+        nr->height = getMax(getHeight(nr->left), getHeight(nr->right)) + 1;
+
+        return nr;
+    }
+
+    return node;
+}
+
+template <class TKEY, class TDATA>
+struct BST<TKEY, TDATA>::BSTNode* BST<TKEY, TDATA>::rightRotate(BSTNode *node) {
+    if (node->left != NULL && node->left->right != NULL) {
+        BSTNode *nl = node->left;
+        BSTNode *nlr = nl->right;
+
+        // Rotate Nodes
+        nl->right = node;
+        node->left = nlr;
+
+        // Update Heights
+        node->height = getMax(getHeight(node->left), getHeight(node->right)) + 1;
+        nl->height = getMax(getHeight(nl->left), getHeight(nl->right)) + 1;
+
+        return nl;
+    }
+
+    return node;
+}
+
+template <class TKEY, class TDATA>
+struct BST<TKEY, TDATA>::BSTNode* BST<TKEY, TDATA>::newNode(TKEY theKey, TDATA theData) {
+    BSTNode* bstNode = new BSTNode();
+    bstNode->key = theKey;
+    bstNode->data = theData;
+    bstNode->color = 'R';
+    bstNode->height = 1;
+    bstNode->parent = NULL;
+    bstNode->left = NULL;
+    bstNode->right = NULL;
+}
+
+template <class TKEY, class TDATA>
+struct BST<TKEY, TDATA>::BSTNode* BST<TKEY, TDATA>::insertNode(BSTNode *&node, const TKEY &theKey, const TDATA &theData) {
     if(node == nullptr) {
-        node = new BSTNode{theKey, theData};
-        return;
+        node = newNode(theKey, theData);
     }
-    else if(theKey < node->key) {
-        insertNode(node->left, theKey, theData);
+    if(theKey < node->key) {
+        node->left = insertNode(node->left, theKey, theData);
     }
-    else {
-        insertNode(node->right, theKey, theData);
+    else if (theKey > node->key) {
+        node->right = insertNode(node->right, theKey, theData);
+        return node;
+    } else {
+        return node;
     }
+
+    node->height = 1 + getMax(getHeight(node->left), getHeight(node->right));
+
+    // Check what the current balance ratio of the tree is
+    int balance = getBalance(node);
+
+    // 4 cases for unbalanced tree
+
+    // Left Left Case
+    if(balance > 1 && theKey < node->left->key) return leftRotate(node);
+    // Right Right Case
+    if(balance < -1 && theKey > node->right->key) return leftRotate(node);
+    // Left Right Case
+    if(balance > 1 && theKey > node->left->key) {
+        node->left = leftRotate(node->left);
+        return rightRotate(node);
+    }
+    // Right Left Case
+    if(balance < -1 && theKey < node->right->key) {
+        node->right = rightRotate(node->right);
+        return leftRotate(node);
+    }
+
+    return node;
+
 }
 
 //template <class TKEY, class TDATA>
@@ -218,4 +315,4 @@ void BST<TKEY, TDATA>::printPreOrder() {
 }
 
 //TODO
-// Convert to AVL Self Balancing Binary Search Tree
+// Print tree in tree format

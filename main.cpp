@@ -5,7 +5,7 @@ int main()
 {
     BST<int, int> tree;
     tree.insert(312, 312);
-    tree.insert(123, 123);
+    tree.insert(123, 23);
     tree.insert(133, 133);
     tree.insert(143, 143);
     tree.insert(323, 323);

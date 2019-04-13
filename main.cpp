@@ -2,19 +2,29 @@
 #include "src/BST/BST.cpp"
 #include "src/BubbleSort/BubbleSort.cpp"
 #include "src/CountingSort/CountingSort.cpp"
+#include "src/DijkstraSort/DijkstraSort.cpp"
 
 int main()
 {
+    // Instantiate a Graph to Work With
+    std::vector< std::vector<int> > graph = {
+            { 0, 4, 0, 0, 0, 0, 0, 8, 0 },
+            { 4, 0, 8, 0, 0, 0, 0, 11, 0 },
+            { 0, 8, 0, 7, 0, 4, 0, 0, 2 },
+            { 0, 0, 7, 0, 9, 14, 0, 0, 0 },
+            { 0, 0, 0, 9, 0, 10, 0, 0, 0 },
+            { 0, 0, 4, 14, 10, 0, 2, 0, 0 },
+            { 0, 0, 0, 0, 0, 2, 0, 1, 6 },
+            { 8, 11, 0, 0, 0, 0, 1, 0, 7 },
+            { 0, 0, 2, 0, 0, 0, 6, 7, 0 }
+    };
+
     // Instantiate a Collection to Work With
     std::vector<int> values = {1, 16, 2, 77, 29, 0, 400, 333, 12, 11, 34, 77};
 
     // Counting Sort
     CountingSort cSort;
     cSort.countingSort(values);
-
-    // Bubble Sort
-    BubbleSort bSort;
-    bSort.bubbleSort(values);
 
     // Binary Search Tree (AVL)
     BST<int, int> tree;
@@ -47,5 +57,15 @@ int main()
     tree.deleteNode(123);
     tree.deleteNode(133);
     tree.printInOrder();
+
+    // Bubble Sort
+    BubbleSort bSort;
+    bSort.bubbleSort(values);
+
+    // DijkstraSort's
+    // Bubble Sort
+    DijkstraSort dijkstraSort;
+    dijkstraSort.dijkstraSort(graph, 0);
+
     return 0;
 }

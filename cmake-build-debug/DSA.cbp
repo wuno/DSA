@@ -105,6 +105,12 @@
 		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/CountingSort/CountingSort.h">
 			<Option target="DSA"/>
 		</Unit>
+		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/Dijkstra/Dijkstra.cpp">
+			<Option target="DSA"/>
+		</Unit>
+		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/Dijkstra/Dijkstra.h">
+			<Option target="DSA"/>
+		</Unit>
 		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

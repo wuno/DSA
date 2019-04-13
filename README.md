@@ -21,6 +21,7 @@
 ## Current Working Algorithms
 - Bubble Sort
 - Counting Sort
+- Dijkstra's
 
 ## Planned Future Algorithms
 - Heap Sort
@@ -29,7 +30,6 @@
 - Merge Sort
 - Quick Sort
 - Radix Sort
-- Dijkstra's
 - Warshall
 - Breadth First
 - Flood Fill

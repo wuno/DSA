@@ -231,6 +231,33 @@ src/CountingSort/CountingSort.cpp.s:
 	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/CountingSort/CountingSort.cpp.s
 .PHONY : src/CountingSort/CountingSort.cpp.s
 
+src/Dijkstra/Dijkstra.o: src/Dijkstra/Dijkstra.cpp.o
+
+.PHONY : src/Dijkstra/Dijkstra.o
+
+# target to build an object file
+src/Dijkstra/Dijkstra.cpp.o:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/Dijkstra/Dijkstra.cpp.o
+.PHONY : src/Dijkstra/Dijkstra.cpp.o
+
+src/Dijkstra/Dijkstra.i: src/Dijkstra/Dijkstra.cpp.i
+
+.PHONY : src/Dijkstra/Dijkstra.i
+
+# target to preprocess a source file
+src/Dijkstra/Dijkstra.cpp.i:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/Dijkstra/Dijkstra.cpp.i
+.PHONY : src/Dijkstra/Dijkstra.cpp.i
+
+src/Dijkstra/Dijkstra.s: src/Dijkstra/Dijkstra.cpp.s
+
+.PHONY : src/Dijkstra/Dijkstra.s
+
+# target to generate assembly for a file
+src/Dijkstra/Dijkstra.cpp.s:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/Dijkstra/Dijkstra.cpp.s
+.PHONY : src/Dijkstra/Dijkstra.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -252,6 +279,9 @@ help:
 	@echo "... src/CountingSort/CountingSort.o"
 	@echo "... src/CountingSort/CountingSort.i"
 	@echo "... src/CountingSort/CountingSort.s"
+	@echo "... src/Dijkstra/Dijkstra.o"
+	@echo "... src/Dijkstra/Dijkstra.i"
+	@echo "... src/Dijkstra/Dijkstra.s"
 .PHONY : help
 
 

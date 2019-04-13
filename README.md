@@ -1,11 +1,12 @@
 # DSA - Data Structures & Algorithms
 
-* Popular Data Structures & Algorithms Implemented in C++
+*Popular Data Structures & Algorithms Implemented in C++*
 
 ## Current Working Data Structures
-- Binary Search Tree
+- Binary Search Tree (AVL)
 
 ## Planned Future Data Structures
+- Binary Search Tree (R&B)
 - Disjoint Set
 - Dictionary
 - Graph
@@ -18,17 +19,16 @@
 - Trie
 
 ## Current Working Algorithms
-- Coming Soon 
+- Bubble Sort
+- Counting Sort
 
 ## Planned Future Algorithms
-- Bubble Sort
 - Heap Sort
 - Insertion Sort
 - Selection Sort
 - Merge Sort
 - Quick Sort
 - Radix Sort
-- Counting Sort
 - Dijkstra's
 - Warshall
 - Breadth First

@@ -1,9 +1,7 @@
 //
 // Created by wuno on 3/30/19.
 //
-#include <iostream>
-#include <cstdlib>
-#include <iomanip>
+
 #include "BST.h"
 
 template <class TKEY, class TDATA>
@@ -272,8 +270,11 @@ void BST<TKEY, TDATA>::inOrderTraversal(BST<TKEY, TDATA>::BSTNode *root)  {
 
 template <class TKEY, class TDATA>
 void BST<TKEY, TDATA>::printInOrder() {
+    std::cout << "Binary Search Tree (AVL) is Running..." << "\n";
+    std::cout << "Binary Search Tree (AVL) [Best: Θ(log(n)), Worst: O(N)]" << "\n";
     std::cout << " \n" << " In Order - Left, Root, Right - ";
     inOrderTraversal(root);
+    std::cout << "\n" << "\n";
 }
 
 template <class TKEY, class TDATA>
@@ -291,8 +292,11 @@ void BST<TKEY, TDATA>::postOrderTraversal(BST<TKEY, TDATA>::BSTNode *root)  {
 
 template <class TKEY, class TDATA>
 void BST<TKEY, TDATA>::printPostOrder() {
+    std::cout << "Binary Search Tree (AVL) is Running..." << "\n";
+    std::cout << "Binary Search Tree (AVL) [Best: Θ(log(n)), Worst: O(N)]" << "\n";
     std::cout << " \n" << " Post Order - Left, Right, Root - ";
     postOrderTraversal(root);
+    std::cout << "\n" << "\n";
 }
 
 template <class TKEY, class TDATA>
@@ -310,9 +314,9 @@ void BST<TKEY, TDATA>::preOrderTraversal(BST<TKEY, TDATA>::BSTNode *root)  {
 
 template <class TKEY, class TDATA>
 void BST<TKEY, TDATA>::printPreOrder() {
+    std::cout << "Binary Search Tree (AVL) is Running..." << "\n";
+    std::cout << "Binary Search Tree (AVL) [Best: Θ(log(n)), Worst: O(N)]" << "\n";
     std::cout << " \n" << " Pre Order - Root, Left, Right - ";
     preOrderTraversal(root);
+    std::cout << "\n" << "\n";
 }
-
-//TODO
-// Print tree in tree format

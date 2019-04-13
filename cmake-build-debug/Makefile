@@ -177,6 +177,60 @@ src/BST/BST.cpp.s:
 	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/BST/BST.cpp.s
 .PHONY : src/BST/BST.cpp.s
 
+src/BubbleSort/BubbleSort.o: src/BubbleSort/BubbleSort.cpp.o
+
+.PHONY : src/BubbleSort/BubbleSort.o
+
+# target to build an object file
+src/BubbleSort/BubbleSort.cpp.o:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/BubbleSort/BubbleSort.cpp.o
+.PHONY : src/BubbleSort/BubbleSort.cpp.o
+
+src/BubbleSort/BubbleSort.i: src/BubbleSort/BubbleSort.cpp.i
+
+.PHONY : src/BubbleSort/BubbleSort.i
+
+# target to preprocess a source file
+src/BubbleSort/BubbleSort.cpp.i:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/BubbleSort/BubbleSort.cpp.i
+.PHONY : src/BubbleSort/BubbleSort.cpp.i
+
+src/BubbleSort/BubbleSort.s: src/BubbleSort/BubbleSort.cpp.s
+
+.PHONY : src/BubbleSort/BubbleSort.s
+
+# target to generate assembly for a file
+src/BubbleSort/BubbleSort.cpp.s:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/BubbleSort/BubbleSort.cpp.s
+.PHONY : src/BubbleSort/BubbleSort.cpp.s
+
+src/CountingSort/CountingSort.o: src/CountingSort/CountingSort.cpp.o
+
+.PHONY : src/CountingSort/CountingSort.o
+
+# target to build an object file
+src/CountingSort/CountingSort.cpp.o:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/CountingSort/CountingSort.cpp.o
+.PHONY : src/CountingSort/CountingSort.cpp.o
+
+src/CountingSort/CountingSort.i: src/CountingSort/CountingSort.cpp.i
+
+.PHONY : src/CountingSort/CountingSort.i
+
+# target to preprocess a source file
+src/CountingSort/CountingSort.cpp.i:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/CountingSort/CountingSort.cpp.i
+.PHONY : src/CountingSort/CountingSort.cpp.i
+
+src/CountingSort/CountingSort.s: src/CountingSort/CountingSort.cpp.s
+
+.PHONY : src/CountingSort/CountingSort.s
+
+# target to generate assembly for a file
+src/CountingSort/CountingSort.cpp.s:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/CountingSort/CountingSort.cpp.s
+.PHONY : src/CountingSort/CountingSort.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +246,12 @@ help:
 	@echo "... src/BST/BST.o"
 	@echo "... src/BST/BST.i"
 	@echo "... src/BST/BST.s"
+	@echo "... src/BubbleSort/BubbleSort.o"
+	@echo "... src/BubbleSort/BubbleSort.i"
+	@echo "... src/BubbleSort/BubbleSort.s"
+	@echo "... src/CountingSort/CountingSort.o"
+	@echo "... src/CountingSort/CountingSort.i"
+	@echo "... src/CountingSort/CountingSort.s"
 .PHONY : help
 
 

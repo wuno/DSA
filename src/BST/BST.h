@@ -5,6 +5,12 @@
 #ifndef DSA_BST_H
 #define DSA_BST_H
 
+#include <iostream>
+#include <cstdlib>
+#include <iomanip>
+#include<queue>
+#include<map>
+
 template <class TKEY, class TDATA>
 class BST {
 private:

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/DSA.dir/main.cpp.o"
   "CMakeFiles/DSA.dir/src/BST/BST.cpp.o"
+  "CMakeFiles/DSA.dir/src/BubbleSort/BubbleSort.cpp.o"
+  "CMakeFiles/DSA.dir/src/CountingSort/CountingSort.cpp.o"
   "DSA.pdb"
   "DSA"
 )

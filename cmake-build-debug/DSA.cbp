@@ -93,6 +93,18 @@
 		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/BST/BST.h">
 			<Option target="DSA"/>
 		</Unit>
+		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/BubbleSort/BubbleSort.cpp">
+			<Option target="DSA"/>
+		</Unit>
+		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/BubbleSort/BubbleSort.h">
+			<Option target="DSA"/>
+		</Unit>
+		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/CountingSort/CountingSort.cpp">
+			<Option target="DSA"/>
+		</Unit>
+		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/CountingSort/CountingSort.h">
+			<Option target="DSA"/>
+		</Unit>
 		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

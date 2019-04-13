@@ -6,6 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/wuno/Dropbox/Hack/Devops/c/DSA/main.cpp" "/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/DSA.dir/main.cpp.o"
   "/home/wuno/Dropbox/Hack/Devops/c/DSA/src/BST/BST.cpp" "/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/DSA.dir/src/BST/BST.cpp.o"
+  "/home/wuno/Dropbox/Hack/Devops/c/DSA/src/BubbleSort/BubbleSort.cpp" "/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/DSA.dir/src/BubbleSort/BubbleSort.cpp.o"
+  "/home/wuno/Dropbox/Hack/Devops/c/DSA/src/CountingSort/CountingSort.cpp" "/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/DSA.dir/src/CountingSort/CountingSort.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

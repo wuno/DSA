@@ -25,11 +25,11 @@
 - Insertion Sort
 - Merge Sort
 - Quick Sort
+- Radix Sort
 
 ## Planned Future Algorithms
 - Heap Sort
 - Selection Sort
-- Radix Sort
 - Warshall
 - Breadth First
 - Flood Fill

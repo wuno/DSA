@@ -6,6 +6,7 @@
 #include "src/InsertionSort/InsertionSort.cpp"
 #include "src/MergeSort/MergeSort.cpp"
 #include "src/QuickSort/QuickSort.cpp"
+#include "src/RadixSort/RadixSort.cpp"
 
 int main()
 {
@@ -77,9 +78,13 @@ int main()
     MergeSort mergeSort;
     mergeSort.mergeSort(values);
 
-    // Merge Sort
+    // Quick Sort
     QuickSort quickSort;
     quickSort.quickSort(values);
+
+    // Radix Sort
+    RadixSort radixSort;
+    radixSort.radixSort(values);
 
     return 0;
 }

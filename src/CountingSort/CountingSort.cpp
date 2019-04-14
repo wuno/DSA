@@ -24,20 +24,20 @@ std::vector<int> CountingSort::countingSort(std::vector<int> &v)  {
         auxiliary[i]++;
 
     // Create a new vector to hold the sorted collection
-    std::vector<int> newVector;
+    std::vector<int> sortedVector;
 
     // Add the sorted values to the new array, 1 item per counted value at that index
     for(int i = 0; i < auxiliary.size(); i++) {
         while(auxiliary[i] >= 1) {
-            newVector.push_back(i);
+            sortedVector.push_back(i);
             auxiliary[i]--;
         }
     }
 
-    for (auto i : newVector)
+    for (auto i : sortedVector)
         std::cout << i << ' ';
 
     std::cout << "\n" << "\n";
 
-    return v;
+    return sortedVector;
 }

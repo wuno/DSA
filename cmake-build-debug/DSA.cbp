@@ -129,6 +129,12 @@
 		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/QuickSort/QuickSort.h">
 			<Option target="DSA"/>
 		</Unit>
+		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/RadixSort/RadixSort.cpp">
+			<Option target="DSA"/>
+		</Unit>
+		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/RadixSort/RadixSort.h">
+			<Option target="DSA"/>
+		</Unit>
 		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

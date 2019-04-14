@@ -231,32 +231,59 @@ src/CountingSort/CountingSort.cpp.s:
 	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/CountingSort/CountingSort.cpp.s
 .PHONY : src/CountingSort/CountingSort.cpp.s
 
-src/Dijkstra/Dijkstra.o: src/Dijkstra/Dijkstra.cpp.o
+src/DijkstraSort/DijkstraSort.o: src/DijkstraSort/DijkstraSort.cpp.o
 
-.PHONY : src/Dijkstra/Dijkstra.o
+.PHONY : src/DijkstraSort/DijkstraSort.o
 
 # target to build an object file
-src/Dijkstra/Dijkstra.cpp.o:
-	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/Dijkstra/Dijkstra.cpp.o
-.PHONY : src/Dijkstra/Dijkstra.cpp.o
+src/DijkstraSort/DijkstraSort.cpp.o:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/DijkstraSort/DijkstraSort.cpp.o
+.PHONY : src/DijkstraSort/DijkstraSort.cpp.o
 
-src/Dijkstra/Dijkstra.i: src/Dijkstra/Dijkstra.cpp.i
+src/DijkstraSort/DijkstraSort.i: src/DijkstraSort/DijkstraSort.cpp.i
 
-.PHONY : src/Dijkstra/Dijkstra.i
+.PHONY : src/DijkstraSort/DijkstraSort.i
 
 # target to preprocess a source file
-src/Dijkstra/Dijkstra.cpp.i:
-	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/Dijkstra/Dijkstra.cpp.i
-.PHONY : src/Dijkstra/Dijkstra.cpp.i
+src/DijkstraSort/DijkstraSort.cpp.i:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/DijkstraSort/DijkstraSort.cpp.i
+.PHONY : src/DijkstraSort/DijkstraSort.cpp.i
 
-src/Dijkstra/Dijkstra.s: src/Dijkstra/Dijkstra.cpp.s
+src/DijkstraSort/DijkstraSort.s: src/DijkstraSort/DijkstraSort.cpp.s
 
-.PHONY : src/Dijkstra/Dijkstra.s
+.PHONY : src/DijkstraSort/DijkstraSort.s
 
 # target to generate assembly for a file
-src/Dijkstra/Dijkstra.cpp.s:
-	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/Dijkstra/Dijkstra.cpp.s
-.PHONY : src/Dijkstra/Dijkstra.cpp.s
+src/DijkstraSort/DijkstraSort.cpp.s:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/DijkstraSort/DijkstraSort.cpp.s
+.PHONY : src/DijkstraSort/DijkstraSort.cpp.s
+
+src/InsertionSort/InsertionSort.o: src/InsertionSort/InsertionSort.cpp.o
+
+.PHONY : src/InsertionSort/InsertionSort.o
+
+# target to build an object file
+src/InsertionSort/InsertionSort.cpp.o:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/InsertionSort/InsertionSort.cpp.o
+.PHONY : src/InsertionSort/InsertionSort.cpp.o
+
+src/InsertionSort/InsertionSort.i: src/InsertionSort/InsertionSort.cpp.i
+
+.PHONY : src/InsertionSort/InsertionSort.i
+
+# target to preprocess a source file
+src/InsertionSort/InsertionSort.cpp.i:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/InsertionSort/InsertionSort.cpp.i
+.PHONY : src/InsertionSort/InsertionSort.cpp.i
+
+src/InsertionSort/InsertionSort.s: src/InsertionSort/InsertionSort.cpp.s
+
+.PHONY : src/InsertionSort/InsertionSort.s
+
+# target to generate assembly for a file
+src/InsertionSort/InsertionSort.cpp.s:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/InsertionSort/InsertionSort.cpp.s
+.PHONY : src/InsertionSort/InsertionSort.cpp.s
 
 # Help Target
 help:
@@ -279,9 +306,12 @@ help:
 	@echo "... src/CountingSort/CountingSort.o"
 	@echo "... src/CountingSort/CountingSort.i"
 	@echo "... src/CountingSort/CountingSort.s"
-	@echo "... src/Dijkstra/Dijkstra.o"
-	@echo "... src/Dijkstra/Dijkstra.i"
-	@echo "... src/Dijkstra/Dijkstra.s"
+	@echo "... src/DijkstraSort/DijkstraSort.o"
+	@echo "... src/DijkstraSort/DijkstraSort.i"
+	@echo "... src/DijkstraSort/DijkstraSort.s"
+	@echo "... src/InsertionSort/InsertionSort.o"
+	@echo "... src/InsertionSort/InsertionSort.i"
+	@echo "... src/InsertionSort/InsertionSort.s"
 .PHONY : help
 
 

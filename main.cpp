@@ -3,6 +3,7 @@
 #include "src/BubbleSort/BubbleSort.cpp"
 #include "src/CountingSort/CountingSort.cpp"
 #include "src/DijkstraSort/DijkstraSort.cpp"
+#include "src/InsertionSort/InsertionSort.cpp"
 
 int main()
 {
@@ -62,10 +63,13 @@ int main()
     BubbleSort bSort;
     bSort.bubbleSort(values);
 
-    // DijkstraSort's
-    // Bubble Sort
+    // Dijkstra's Sort
     DijkstraSort dijkstraSort;
     dijkstraSort.dijkstraSort(graph, 0);
+
+    // Insertion Sort
+    InsertionSort insertionSort;
+    insertionSort.insertionSort(values);
 
     return 0;
 }

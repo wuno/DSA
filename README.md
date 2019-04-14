@@ -22,10 +22,10 @@
 - Bubble Sort
 - Counting Sort
 - Dijkstra's
+- Insertion Sort
 
 ## Planned Future Algorithms
 - Heap Sort
-- Insertion Sort
 - Selection Sort
 - Merge Sort
 - Quick Sort

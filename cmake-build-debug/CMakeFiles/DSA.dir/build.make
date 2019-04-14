@@ -109,18 +109,31 @@ CMakeFiles/DSA.dir/src/CountingSort/CountingSort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSA.dir/src/CountingSort/CountingSort.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wuno/Dropbox/Hack/Devops/c/DSA/src/CountingSort/CountingSort.cpp -o CMakeFiles/DSA.dir/src/CountingSort/CountingSort.cpp.s
 
-CMakeFiles/DSA.dir/src/Dijkstra/Dijkstra.cpp.o: CMakeFiles/DSA.dir/flags.make
-CMakeFiles/DSA.dir/src/Dijkstra/Dijkstra.cpp.o: ../src/Dijkstra/Dijkstra.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DSA.dir/src/Dijkstra/Dijkstra.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DSA.dir/src/Dijkstra/Dijkstra.cpp.o -c /home/wuno/Dropbox/Hack/Devops/c/DSA/src/Dijkstra/Dijkstra.cpp
+CMakeFiles/DSA.dir/src/DijkstraSort/DijkstraSort.cpp.o: CMakeFiles/DSA.dir/flags.make
+CMakeFiles/DSA.dir/src/DijkstraSort/DijkstraSort.cpp.o: ../src/DijkstraSort/DijkstraSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DSA.dir/src/DijkstraSort/DijkstraSort.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DSA.dir/src/DijkstraSort/DijkstraSort.cpp.o -c /home/wuno/Dropbox/Hack/Devops/c/DSA/src/DijkstraSort/DijkstraSort.cpp
 
-CMakeFiles/DSA.dir/src/Dijkstra/Dijkstra.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSA.dir/src/Dijkstra/Dijkstra.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wuno/Dropbox/Hack/Devops/c/DSA/src/Dijkstra/Dijkstra.cpp > CMakeFiles/DSA.dir/src/Dijkstra/Dijkstra.cpp.i
+CMakeFiles/DSA.dir/src/DijkstraSort/DijkstraSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSA.dir/src/DijkstraSort/DijkstraSort.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wuno/Dropbox/Hack/Devops/c/DSA/src/DijkstraSort/DijkstraSort.cpp > CMakeFiles/DSA.dir/src/DijkstraSort/DijkstraSort.cpp.i
 
-CMakeFiles/DSA.dir/src/Dijkstra/Dijkstra.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSA.dir/src/Dijkstra/Dijkstra.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wuno/Dropbox/Hack/Devops/c/DSA/src/Dijkstra/Dijkstra.cpp -o CMakeFiles/DSA.dir/src/Dijkstra/Dijkstra.cpp.s
+CMakeFiles/DSA.dir/src/DijkstraSort/DijkstraSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSA.dir/src/DijkstraSort/DijkstraSort.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wuno/Dropbox/Hack/Devops/c/DSA/src/DijkstraSort/DijkstraSort.cpp -o CMakeFiles/DSA.dir/src/DijkstraSort/DijkstraSort.cpp.s
+
+CMakeFiles/DSA.dir/src/InsertionSort/InsertionSort.cpp.o: CMakeFiles/DSA.dir/flags.make
+CMakeFiles/DSA.dir/src/InsertionSort/InsertionSort.cpp.o: ../src/InsertionSort/InsertionSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DSA.dir/src/InsertionSort/InsertionSort.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DSA.dir/src/InsertionSort/InsertionSort.cpp.o -c /home/wuno/Dropbox/Hack/Devops/c/DSA/src/InsertionSort/InsertionSort.cpp
+
+CMakeFiles/DSA.dir/src/InsertionSort/InsertionSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSA.dir/src/InsertionSort/InsertionSort.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wuno/Dropbox/Hack/Devops/c/DSA/src/InsertionSort/InsertionSort.cpp > CMakeFiles/DSA.dir/src/InsertionSort/InsertionSort.cpp.i
+
+CMakeFiles/DSA.dir/src/InsertionSort/InsertionSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSA.dir/src/InsertionSort/InsertionSort.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wuno/Dropbox/Hack/Devops/c/DSA/src/InsertionSort/InsertionSort.cpp -o CMakeFiles/DSA.dir/src/InsertionSort/InsertionSort.cpp.s
 
 # Object files for target DSA
 DSA_OBJECTS = \
@@ -128,7 +141,8 @@ DSA_OBJECTS = \
 "CMakeFiles/DSA.dir/src/BST/BST.cpp.o" \
 "CMakeFiles/DSA.dir/src/BubbleSort/BubbleSort.cpp.o" \
 "CMakeFiles/DSA.dir/src/CountingSort/CountingSort.cpp.o" \
-"CMakeFiles/DSA.dir/src/Dijkstra/Dijkstra.cpp.o"
+"CMakeFiles/DSA.dir/src/DijkstraSort/DijkstraSort.cpp.o" \
+"CMakeFiles/DSA.dir/src/InsertionSort/InsertionSort.cpp.o"
 
 # External object files for target DSA
 DSA_EXTERNAL_OBJECTS =
@@ -137,10 +151,11 @@ DSA: CMakeFiles/DSA.dir/main.cpp.o
 DSA: CMakeFiles/DSA.dir/src/BST/BST.cpp.o
 DSA: CMakeFiles/DSA.dir/src/BubbleSort/BubbleSort.cpp.o
 DSA: CMakeFiles/DSA.dir/src/CountingSort/CountingSort.cpp.o
-DSA: CMakeFiles/DSA.dir/src/Dijkstra/Dijkstra.cpp.o
+DSA: CMakeFiles/DSA.dir/src/DijkstraSort/DijkstraSort.cpp.o
+DSA: CMakeFiles/DSA.dir/src/InsertionSort/InsertionSort.cpp.o
 DSA: CMakeFiles/DSA.dir/build.make
 DSA: CMakeFiles/DSA.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable DSA"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable DSA"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DSA.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

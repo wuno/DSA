@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/wuno/Dropbox/Hack/Devops/c/DSA/src/BST/BST.cpp" "/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/DSA.dir/src/BST/BST.cpp.o"
   "/home/wuno/Dropbox/Hack/Devops/c/DSA/src/BubbleSort/BubbleSort.cpp" "/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/DSA.dir/src/BubbleSort/BubbleSort.cpp.o"
   "/home/wuno/Dropbox/Hack/Devops/c/DSA/src/CountingSort/CountingSort.cpp" "/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/DSA.dir/src/CountingSort/CountingSort.cpp.o"
-  "/home/wuno/Dropbox/Hack/Devops/c/DSA/src/Dijkstra/Dijkstra.cpp" "/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/DSA.dir/src/Dijkstra/Dijkstra.cpp.o"
+  "/home/wuno/Dropbox/Hack/Devops/c/DSA/src/DijkstraSort/DijkstraSort.cpp" "/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/DSA.dir/src/DijkstraSort/DijkstraSort.cpp.o"
+  "/home/wuno/Dropbox/Hack/Devops/c/DSA/src/InsertionSort/InsertionSort.cpp" "/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/DSA.dir/src/InsertionSort/InsertionSort.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

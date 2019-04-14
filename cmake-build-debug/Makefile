@@ -258,6 +258,33 @@ src/DijkstraSort/DijkstraSort.cpp.s:
 	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/DijkstraSort/DijkstraSort.cpp.s
 .PHONY : src/DijkstraSort/DijkstraSort.cpp.s
 
+src/HeapSort/HeapSort.o: src/HeapSort/HeapSort.cpp.o
+
+.PHONY : src/HeapSort/HeapSort.o
+
+# target to build an object file
+src/HeapSort/HeapSort.cpp.o:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/HeapSort/HeapSort.cpp.o
+.PHONY : src/HeapSort/HeapSort.cpp.o
+
+src/HeapSort/HeapSort.i: src/HeapSort/HeapSort.cpp.i
+
+.PHONY : src/HeapSort/HeapSort.i
+
+# target to preprocess a source file
+src/HeapSort/HeapSort.cpp.i:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/HeapSort/HeapSort.cpp.i
+.PHONY : src/HeapSort/HeapSort.cpp.i
+
+src/HeapSort/HeapSort.s: src/HeapSort/HeapSort.cpp.s
+
+.PHONY : src/HeapSort/HeapSort.s
+
+# target to generate assembly for a file
+src/HeapSort/HeapSort.cpp.s:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/HeapSort/HeapSort.cpp.s
+.PHONY : src/HeapSort/HeapSort.cpp.s
+
 src/InsertionSort/InsertionSort.o: src/InsertionSort/InsertionSort.cpp.o
 
 .PHONY : src/InsertionSort/InsertionSort.o
@@ -444,6 +471,9 @@ help:
 	@echo "... src/DijkstraSort/DijkstraSort.o"
 	@echo "... src/DijkstraSort/DijkstraSort.i"
 	@echo "... src/DijkstraSort/DijkstraSort.s"
+	@echo "... src/HeapSort/HeapSort.o"
+	@echo "... src/HeapSort/HeapSort.i"
+	@echo "... src/HeapSort/HeapSort.s"
 	@echo "... src/InsertionSort/InsertionSort.o"
 	@echo "... src/InsertionSort/InsertionSort.i"
 	@echo "... src/InsertionSort/InsertionSort.s"

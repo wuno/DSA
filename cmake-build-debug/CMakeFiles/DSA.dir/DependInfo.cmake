@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/wuno/Dropbox/Hack/Devops/c/DSA/src/BubbleSort/BubbleSort.cpp" "/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/DSA.dir/src/BubbleSort/BubbleSort.cpp.o"
   "/home/wuno/Dropbox/Hack/Devops/c/DSA/src/CountingSort/CountingSort.cpp" "/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/DSA.dir/src/CountingSort/CountingSort.cpp.o"
   "/home/wuno/Dropbox/Hack/Devops/c/DSA/src/DijkstraSort/DijkstraSort.cpp" "/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/DSA.dir/src/DijkstraSort/DijkstraSort.cpp.o"
+  "/home/wuno/Dropbox/Hack/Devops/c/DSA/src/HeapSort/HeapSort.cpp" "/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/DSA.dir/src/HeapSort/HeapSort.cpp.o"
   "/home/wuno/Dropbox/Hack/Devops/c/DSA/src/InsertionSort/InsertionSort.cpp" "/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/DSA.dir/src/InsertionSort/InsertionSort.cpp.o"
   "/home/wuno/Dropbox/Hack/Devops/c/DSA/src/MergeSort/MergeSort.cpp" "/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/DSA.dir/src/MergeSort/MergeSort.cpp.o"
   "/home/wuno/Dropbox/Hack/Devops/c/DSA/src/QuickSort/QuickSort.cpp" "/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/DSA.dir/src/QuickSort/QuickSort.cpp.o"

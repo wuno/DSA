@@ -22,6 +22,7 @@
 - Bubble Sort
 - Counting Sort
 - Dijkstra's
+- Heap Sort
 - Insertion Sort
 - Merge Sort
 - Quick Sort
@@ -30,7 +31,6 @@
 - Shell Sort
 
 ## Planned Future Algorithms
-- Heap Sort
 - Warshall
 - Breadth First
 - Flood Fill

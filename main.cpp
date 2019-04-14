@@ -9,6 +9,7 @@
 #include "src/RadixSort/RadixSort.cpp"
 #include "src/SelectionSort/SelectionSort.cpp"
 #include "src/ShellSort/ShellSort.cpp"
+#include "src/HeapSort/HeapSort.cpp"
 
 int main()
 {
@@ -95,6 +96,10 @@ int main()
     // Shell Sort
     ShellSort shellSort;
     shellSort.shellSort(values);
+
+    // Heap Sort
+    HeapSort heapSort;
+    heapSort.heapSort(values);
 
     return 0;
 }

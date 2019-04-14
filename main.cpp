@@ -4,6 +4,7 @@
 #include "src/CountingSort/CountingSort.cpp"
 #include "src/DijkstraSort/DijkstraSort.cpp"
 #include "src/InsertionSort/InsertionSort.cpp"
+#include "src/MergeSort/MergeSort.cpp"
 
 int main()
 {
@@ -70,6 +71,10 @@ int main()
     // Insertion Sort
     InsertionSort insertionSort;
     insertionSort.insertionSort(values);
+
+    // Merge Sort
+    MergeSort mergeSort;
+    mergeSort.mergeSort(values);
 
     return 0;
 }

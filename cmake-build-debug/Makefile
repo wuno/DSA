@@ -285,6 +285,33 @@ src/InsertionSort/InsertionSort.cpp.s:
 	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/InsertionSort/InsertionSort.cpp.s
 .PHONY : src/InsertionSort/InsertionSort.cpp.s
 
+src/MergeSort/MergeSort.o: src/MergeSort/MergeSort.cpp.o
+
+.PHONY : src/MergeSort/MergeSort.o
+
+# target to build an object file
+src/MergeSort/MergeSort.cpp.o:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/MergeSort/MergeSort.cpp.o
+.PHONY : src/MergeSort/MergeSort.cpp.o
+
+src/MergeSort/MergeSort.i: src/MergeSort/MergeSort.cpp.i
+
+.PHONY : src/MergeSort/MergeSort.i
+
+# target to preprocess a source file
+src/MergeSort/MergeSort.cpp.i:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/MergeSort/MergeSort.cpp.i
+.PHONY : src/MergeSort/MergeSort.cpp.i
+
+src/MergeSort/MergeSort.s: src/MergeSort/MergeSort.cpp.s
+
+.PHONY : src/MergeSort/MergeSort.s
+
+# target to generate assembly for a file
+src/MergeSort/MergeSort.cpp.s:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/MergeSort/MergeSort.cpp.s
+.PHONY : src/MergeSort/MergeSort.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -312,6 +339,9 @@ help:
 	@echo "... src/InsertionSort/InsertionSort.o"
 	@echo "... src/InsertionSort/InsertionSort.i"
 	@echo "... src/InsertionSort/InsertionSort.s"
+	@echo "... src/MergeSort/MergeSort.o"
+	@echo "... src/MergeSort/MergeSort.i"
+	@echo "... src/MergeSort/MergeSort.s"
 .PHONY : help
 
 

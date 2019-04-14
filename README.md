@@ -23,11 +23,11 @@
 - Counting Sort
 - Dijkstra's
 - Insertion Sort
+- Merge Sort
 
 ## Planned Future Algorithms
 - Heap Sort
 - Selection Sort
-- Merge Sort
 - Quick Sort
 - Radix Sort
 - Warshall

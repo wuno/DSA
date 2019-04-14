@@ -4,10 +4,9 @@
 
 #include "InsertionSort.h"
 
-
 std::vector<int> InsertionSort::insertionSort(std::vector<int> &v)  {
     std::cout << "Insertion Sort is Running..." << "\n";
-    std::cout << "Insertion Sort [Best: O(N), Worst:O(N^2)]" << "\n";\
+    std::cout << "Insertion Sort [Best: O(N), Worst:O(N^2)]" << "\n";
 
     // Loop through the length of the collection
     // Start at 1 so we can compare to the last node and move the lowest to the left

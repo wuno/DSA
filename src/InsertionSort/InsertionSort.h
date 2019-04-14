@@ -6,7 +6,6 @@
 #define DSA_INSERTIONSORT_H
 #include <iostream>
 #include <vector>
-#include <limits>
 
 class InsertionSort {
 private:

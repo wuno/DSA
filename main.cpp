@@ -10,6 +10,7 @@
 #include "src/SelectionSort/SelectionSort.cpp"
 #include "src/ShellSort/ShellSort.cpp"
 #include "src/HeapSort/HeapSort.cpp"
+#include "src/Dictionary/Dictionary.cpp"
 
 int main()
 {
@@ -100,6 +101,13 @@ int main()
     // Heap Sort
     HeapSort heapSort;
     heapSort.heapSort(values);
+
+    // Dictionary
+    Dictionary<std::string, std::string> dict;
+    dict.insertNode("Nick", "Cool");
+    dict.insertNode("Nick", "Apple");
+    dict.deleteNode("Nick");
+    dict.findNode("Nick");
 
     return 0;
 }

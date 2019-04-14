@@ -231,6 +231,33 @@ src/CountingSort/CountingSort.cpp.s:
 	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/CountingSort/CountingSort.cpp.s
 .PHONY : src/CountingSort/CountingSort.cpp.s
 
+src/Dictionary/Dictionary.o: src/Dictionary/Dictionary.cpp.o
+
+.PHONY : src/Dictionary/Dictionary.o
+
+# target to build an object file
+src/Dictionary/Dictionary.cpp.o:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/Dictionary/Dictionary.cpp.o
+.PHONY : src/Dictionary/Dictionary.cpp.o
+
+src/Dictionary/Dictionary.i: src/Dictionary/Dictionary.cpp.i
+
+.PHONY : src/Dictionary/Dictionary.i
+
+# target to preprocess a source file
+src/Dictionary/Dictionary.cpp.i:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/Dictionary/Dictionary.cpp.i
+.PHONY : src/Dictionary/Dictionary.cpp.i
+
+src/Dictionary/Dictionary.s: src/Dictionary/Dictionary.cpp.s
+
+.PHONY : src/Dictionary/Dictionary.s
+
+# target to generate assembly for a file
+src/Dictionary/Dictionary.cpp.s:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/Dictionary/Dictionary.cpp.s
+.PHONY : src/Dictionary/Dictionary.cpp.s
+
 src/DijkstraSort/DijkstraSort.o: src/DijkstraSort/DijkstraSort.cpp.o
 
 .PHONY : src/DijkstraSort/DijkstraSort.o
@@ -468,6 +495,9 @@ help:
 	@echo "... src/CountingSort/CountingSort.o"
 	@echo "... src/CountingSort/CountingSort.i"
 	@echo "... src/CountingSort/CountingSort.s"
+	@echo "... src/Dictionary/Dictionary.o"
+	@echo "... src/Dictionary/Dictionary.i"
+	@echo "... src/Dictionary/Dictionary.s"
 	@echo "... src/DijkstraSort/DijkstraSort.o"
 	@echo "... src/DijkstraSort/DijkstraSort.i"
 	@echo "... src/DijkstraSort/DijkstraSort.s"

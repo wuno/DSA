@@ -7,6 +7,7 @@
 #include "src/MergeSort/MergeSort.cpp"
 #include "src/QuickSort/QuickSort.cpp"
 #include "src/RadixSort/RadixSort.cpp"
+#include "src/SelectionSort/SelectionSort.cpp"
 
 int main()
 {
@@ -85,6 +86,10 @@ int main()
     // Radix Sort
     RadixSort radixSort;
     radixSort.radixSort(values);
+
+    // Selection Sort
+    SelectionSort selectionSort;
+    selectionSort.selectionSort(values);
 
     return 0;
 }

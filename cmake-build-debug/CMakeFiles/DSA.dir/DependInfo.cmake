@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/wuno/Dropbox/Hack/Devops/c/DSA/src/MergeSort/MergeSort.cpp" "/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/DSA.dir/src/MergeSort/MergeSort.cpp.o"
   "/home/wuno/Dropbox/Hack/Devops/c/DSA/src/QuickSort/QuickSort.cpp" "/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/DSA.dir/src/QuickSort/QuickSort.cpp.o"
   "/home/wuno/Dropbox/Hack/Devops/c/DSA/src/RadixSort/RadixSort.cpp" "/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/DSA.dir/src/RadixSort/RadixSort.cpp.o"
+  "/home/wuno/Dropbox/Hack/Devops/c/DSA/src/SelectionSort/SelectionSort.cpp" "/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles/DSA.dir/src/SelectionSort/SelectionSort.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

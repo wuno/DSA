@@ -15,6 +15,4 @@ public:
     std::vector<int> quickSort(std::vector<int> &v);
 };
 
-
-
 #endif //DSA_QUICKSORT_H

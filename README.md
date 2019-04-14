@@ -26,10 +26,10 @@
 - Merge Sort
 - Quick Sort
 - Radix Sort
+- Selection Sort
 
 ## Planned Future Algorithms
 - Heap Sort
-- Selection Sort
 - Warshall
 - Breadth First
 - Flood Fill

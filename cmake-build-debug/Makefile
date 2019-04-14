@@ -366,6 +366,33 @@ src/RadixSort/RadixSort.cpp.s:
 	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/RadixSort/RadixSort.cpp.s
 .PHONY : src/RadixSort/RadixSort.cpp.s
 
+src/SelectionSort/SelectionSort.o: src/SelectionSort/SelectionSort.cpp.o
+
+.PHONY : src/SelectionSort/SelectionSort.o
+
+# target to build an object file
+src/SelectionSort/SelectionSort.cpp.o:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/SelectionSort/SelectionSort.cpp.o
+.PHONY : src/SelectionSort/SelectionSort.cpp.o
+
+src/SelectionSort/SelectionSort.i: src/SelectionSort/SelectionSort.cpp.i
+
+.PHONY : src/SelectionSort/SelectionSort.i
+
+# target to preprocess a source file
+src/SelectionSort/SelectionSort.cpp.i:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/SelectionSort/SelectionSort.cpp.i
+.PHONY : src/SelectionSort/SelectionSort.cpp.i
+
+src/SelectionSort/SelectionSort.s: src/SelectionSort/SelectionSort.cpp.s
+
+.PHONY : src/SelectionSort/SelectionSort.s
+
+# target to generate assembly for a file
+src/SelectionSort/SelectionSort.cpp.s:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/SelectionSort/SelectionSort.cpp.s
+.PHONY : src/SelectionSort/SelectionSort.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -402,6 +429,9 @@ help:
 	@echo "... src/RadixSort/RadixSort.o"
 	@echo "... src/RadixSort/RadixSort.i"
 	@echo "... src/RadixSort/RadixSort.s"
+	@echo "... src/SelectionSort/SelectionSort.o"
+	@echo "... src/SelectionSort/SelectionSort.i"
+	@echo "... src/SelectionSort/SelectionSort.s"
 .PHONY : help
 
 

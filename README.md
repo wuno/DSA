@@ -27,6 +27,7 @@
 - Quick Sort
 - Radix Sort
 - Selection Sort
+- Shell Sort
 
 ## Planned Future Algorithms
 - Heap Sort

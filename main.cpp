@@ -8,6 +8,7 @@
 #include "src/QuickSort/QuickSort.cpp"
 #include "src/RadixSort/RadixSort.cpp"
 #include "src/SelectionSort/SelectionSort.cpp"
+#include "src/ShellSort/ShellSort.cpp"
 
 int main()
 {
@@ -90,6 +91,10 @@ int main()
     // Selection Sort
     SelectionSort selectionSort;
     selectionSort.selectionSort(values);
+
+    // Shell Sort
+    ShellSort shellSort;
+    shellSort.shellSort(values);
 
     return 0;
 }

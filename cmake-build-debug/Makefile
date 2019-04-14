@@ -393,6 +393,33 @@ src/SelectionSort/SelectionSort.cpp.s:
 	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/SelectionSort/SelectionSort.cpp.s
 .PHONY : src/SelectionSort/SelectionSort.cpp.s
 
+src/ShellSort/ShellSort.o: src/ShellSort/ShellSort.cpp.o
+
+.PHONY : src/ShellSort/ShellSort.o
+
+# target to build an object file
+src/ShellSort/ShellSort.cpp.o:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/ShellSort/ShellSort.cpp.o
+.PHONY : src/ShellSort/ShellSort.cpp.o
+
+src/ShellSort/ShellSort.i: src/ShellSort/ShellSort.cpp.i
+
+.PHONY : src/ShellSort/ShellSort.i
+
+# target to preprocess a source file
+src/ShellSort/ShellSort.cpp.i:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/ShellSort/ShellSort.cpp.i
+.PHONY : src/ShellSort/ShellSort.cpp.i
+
+src/ShellSort/ShellSort.s: src/ShellSort/ShellSort.cpp.s
+
+.PHONY : src/ShellSort/ShellSort.s
+
+# target to generate assembly for a file
+src/ShellSort/ShellSort.cpp.s:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/ShellSort/ShellSort.cpp.s
+.PHONY : src/ShellSort/ShellSort.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -432,6 +459,9 @@ help:
 	@echo "... src/SelectionSort/SelectionSort.o"
 	@echo "... src/SelectionSort/SelectionSort.i"
 	@echo "... src/SelectionSort/SelectionSort.s"
+	@echo "... src/ShellSort/ShellSort.o"
+	@echo "... src/ShellSort/ShellSort.i"
+	@echo "... src/ShellSort/ShellSort.s"
 .PHONY : help
 
 

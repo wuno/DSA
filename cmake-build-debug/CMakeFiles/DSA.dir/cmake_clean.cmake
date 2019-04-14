@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/DSA.dir/src/QuickSort/QuickSort.cpp.o"
   "CMakeFiles/DSA.dir/src/RadixSort/RadixSort.cpp.o"
   "CMakeFiles/DSA.dir/src/SelectionSort/SelectionSort.cpp.o"
+  "CMakeFiles/DSA.dir/src/ShellSort/ShellSort.cpp.o"
   "DSA.pdb"
   "DSA"
 )

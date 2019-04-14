@@ -5,6 +5,7 @@
 #include "src/DijkstraSort/DijkstraSort.cpp"
 #include "src/InsertionSort/InsertionSort.cpp"
 #include "src/MergeSort/MergeSort.cpp"
+#include "src/QuickSort/QuickSort.cpp"
 
 int main()
 {
@@ -75,6 +76,10 @@ int main()
     // Merge Sort
     MergeSort mergeSort;
     mergeSort.mergeSort(values);
+
+    // Merge Sort
+    QuickSort quickSort;
+    quickSort.quickSort(values);
 
     return 0;
 }

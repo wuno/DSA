@@ -24,11 +24,11 @@
 - Dijkstra's
 - Insertion Sort
 - Merge Sort
+- Quick Sort
 
 ## Planned Future Algorithms
 - Heap Sort
 - Selection Sort
-- Quick Sort
 - Radix Sort
 - Warshall
 - Breadth First

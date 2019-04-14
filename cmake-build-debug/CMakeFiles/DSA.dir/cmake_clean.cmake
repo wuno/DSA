@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/DSA.dir/src/DijkstraSort/DijkstraSort.cpp.o"
   "CMakeFiles/DSA.dir/src/InsertionSort/InsertionSort.cpp.o"
   "CMakeFiles/DSA.dir/src/MergeSort/MergeSort.cpp.o"
+  "CMakeFiles/DSA.dir/src/QuickSort/QuickSort.cpp.o"
   "DSA.pdb"
   "DSA"
 )

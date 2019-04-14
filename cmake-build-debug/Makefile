@@ -312,6 +312,33 @@ src/MergeSort/MergeSort.cpp.s:
 	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/MergeSort/MergeSort.cpp.s
 .PHONY : src/MergeSort/MergeSort.cpp.s
 
+src/QuickSort/QuickSort.o: src/QuickSort/QuickSort.cpp.o
+
+.PHONY : src/QuickSort/QuickSort.o
+
+# target to build an object file
+src/QuickSort/QuickSort.cpp.o:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/QuickSort/QuickSort.cpp.o
+.PHONY : src/QuickSort/QuickSort.cpp.o
+
+src/QuickSort/QuickSort.i: src/QuickSort/QuickSort.cpp.i
+
+.PHONY : src/QuickSort/QuickSort.i
+
+# target to preprocess a source file
+src/QuickSort/QuickSort.cpp.i:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/QuickSort/QuickSort.cpp.i
+.PHONY : src/QuickSort/QuickSort.cpp.i
+
+src/QuickSort/QuickSort.s: src/QuickSort/QuickSort.cpp.s
+
+.PHONY : src/QuickSort/QuickSort.s
+
+# target to generate assembly for a file
+src/QuickSort/QuickSort.cpp.s:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/QuickSort/QuickSort.cpp.s
+.PHONY : src/QuickSort/QuickSort.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -342,6 +369,9 @@ help:
 	@echo "... src/MergeSort/MergeSort.o"
 	@echo "... src/MergeSort/MergeSort.i"
 	@echo "... src/MergeSort/MergeSort.s"
+	@echo "... src/QuickSort/QuickSort.o"
+	@echo "... src/QuickSort/QuickSort.i"
+	@echo "... src/QuickSort/QuickSort.s"
 .PHONY : help
 
 

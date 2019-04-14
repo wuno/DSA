@@ -104,10 +104,18 @@ int main()
 
     // Dictionary
     Dictionary<std::string, std::string> dict;
-    dict.insertNode("Nick", "Cool");
+    dict.insertNode("A", "Cool");
+    dict.insertNode("B", "Cool");
+    dict.insertNode("C", "Cool");
+    dict.insertNode("D", "Cool");
+    dict.insertNode("E", "Cool");
+    dict.insertNode("F", "Cool");
+    dict.insertNode("G", "Cool");
     dict.insertNode("Nick", "Apple");
     dict.deleteNode("Nick");
     dict.findNode("Nick");
+    dict.getKeys();
+    dict.getValues();
 
     return 0;
 }

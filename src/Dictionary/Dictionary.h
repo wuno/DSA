@@ -16,7 +16,8 @@ public:
     void insertNode(K key, V value);
     void deleteNode(K key);
     bool findNode(K key);
+    void getKeys();
+    void getValues();
 };
-
 
 #endif //DSA_DICTIONARY_H

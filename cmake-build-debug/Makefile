@@ -285,6 +285,33 @@ src/DijkstraSort/DijkstraSort.cpp.s:
 	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/DijkstraSort/DijkstraSort.cpp.s
 .PHONY : src/DijkstraSort/DijkstraSort.cpp.s
 
+src/Graph/Graph.o: src/Graph/Graph.cpp.o
+
+.PHONY : src/Graph/Graph.o
+
+# target to build an object file
+src/Graph/Graph.cpp.o:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/Graph/Graph.cpp.o
+.PHONY : src/Graph/Graph.cpp.o
+
+src/Graph/Graph.i: src/Graph/Graph.cpp.i
+
+.PHONY : src/Graph/Graph.i
+
+# target to preprocess a source file
+src/Graph/Graph.cpp.i:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/Graph/Graph.cpp.i
+.PHONY : src/Graph/Graph.cpp.i
+
+src/Graph/Graph.s: src/Graph/Graph.cpp.s
+
+.PHONY : src/Graph/Graph.s
+
+# target to generate assembly for a file
+src/Graph/Graph.cpp.s:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/Graph/Graph.cpp.s
+.PHONY : src/Graph/Graph.cpp.s
+
 src/HeapSort/HeapSort.o: src/HeapSort/HeapSort.cpp.o
 
 .PHONY : src/HeapSort/HeapSort.o
@@ -501,6 +528,9 @@ help:
 	@echo "... src/DijkstraSort/DijkstraSort.o"
 	@echo "... src/DijkstraSort/DijkstraSort.i"
 	@echo "... src/DijkstraSort/DijkstraSort.s"
+	@echo "... src/Graph/Graph.o"
+	@echo "... src/Graph/Graph.i"
+	@echo "... src/Graph/Graph.s"
 	@echo "... src/HeapSort/HeapSort.o"
 	@echo "... src/HeapSort/HeapSort.i"
 	@echo "... src/HeapSort/HeapSort.s"

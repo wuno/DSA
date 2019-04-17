@@ -117,6 +117,12 @@
 		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/DijkstraSort/DijkstraSort.h">
 			<Option target="DSA"/>
 		</Unit>
+		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/Graph/Graph.cpp">
+			<Option target="DSA"/>
+		</Unit>
+		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/Graph/Graph.h">
+			<Option target="DSA"/>
+		</Unit>
 		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/HeapSort/HeapSort.cpp">
 			<Option target="DSA"/>
 		</Unit>

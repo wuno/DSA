@@ -5,11 +5,11 @@
 ## Current Working Data Structures
 - Binary Search Tree (AVL)
 - Dictionary
+- Graph
 
 ## Planned Future Data Structures
 - Binary Search Tree (R&B)
 - Disjoint Set
-- Graph
 - Hash Table
 - Heap
 - Linked List

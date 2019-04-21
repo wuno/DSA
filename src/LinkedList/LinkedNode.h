@@ -16,5 +16,4 @@ public:
     LinkedNode(const K &key, const D &data);
 };
 
-
 #endif //DSA_LINKEDNODE_H

@@ -23,5 +23,4 @@ public:
     void printNodes();
 };
 
-
 #endif //DSA_LINKEDLIST_H

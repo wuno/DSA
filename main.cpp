@@ -12,6 +12,7 @@
 #include "src/HeapSort/HeapSort.cpp"
 #include "src/Dictionary/Dictionary.cpp"
 #include "src/Graph/Graph.cpp"
+#include "src/HashMap/HashMap.cpp"
 
 int main()
 {
@@ -127,6 +128,23 @@ int main()
     };
     Graph graph(nonWeighted, weighted);
     graph.printGraph(graph);
+
+    // Hash Map
+    int tableSize = 2;
+    int key = 10;
+    int value = 20;
+
+    HashMap<int, int> hash(tableSize);
+
+    hash.insertHashNode(key, value);
+    hash.insertHashNode(333, 444);
+    hash.getValue(key);
+    hash.deleteValue(key);
+    hash.getValue(333);
+    hash.getValue(key);
+    hash.getCurrentSize();
+    hash.getTableSize();
+    hash.printHashTable();
 
     return 0;
 }

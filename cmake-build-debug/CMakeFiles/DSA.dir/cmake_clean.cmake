@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/DSA.dir/src/HeapSort/HeapSort.cpp.o"
   "CMakeFiles/DSA.dir/src/Dictionary/Dictionary.cpp.o"
   "CMakeFiles/DSA.dir/src/Graph/Graph.cpp.o"
+  "CMakeFiles/DSA.dir/src/HashMap/HashMap.cpp.o"
+  "CMakeFiles/DSA.dir/src/HashMap/HashNode.cpp.o"
   "DSA.pdb"
   "DSA"
 )

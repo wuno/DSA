@@ -123,6 +123,18 @@
 		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/Graph/Graph.h">
 			<Option target="DSA"/>
 		</Unit>
+		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/HashMap/HashMap.cpp">
+			<Option target="DSA"/>
+		</Unit>
+		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/HashMap/HashMap.h">
+			<Option target="DSA"/>
+		</Unit>
+		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/HashMap/HashNode.cpp">
+			<Option target="DSA"/>
+		</Unit>
+		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/HashMap/HashNode.h">
+			<Option target="DSA"/>
+		</Unit>
 		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/HeapSort/HeapSort.cpp">
 			<Option target="DSA"/>
 		</Unit>

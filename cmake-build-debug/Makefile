@@ -312,6 +312,60 @@ src/Graph/Graph.cpp.s:
 	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/Graph/Graph.cpp.s
 .PHONY : src/Graph/Graph.cpp.s
 
+src/HashMap/HashMap.o: src/HashMap/HashMap.cpp.o
+
+.PHONY : src/HashMap/HashMap.o
+
+# target to build an object file
+src/HashMap/HashMap.cpp.o:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/HashMap/HashMap.cpp.o
+.PHONY : src/HashMap/HashMap.cpp.o
+
+src/HashMap/HashMap.i: src/HashMap/HashMap.cpp.i
+
+.PHONY : src/HashMap/HashMap.i
+
+# target to preprocess a source file
+src/HashMap/HashMap.cpp.i:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/HashMap/HashMap.cpp.i
+.PHONY : src/HashMap/HashMap.cpp.i
+
+src/HashMap/HashMap.s: src/HashMap/HashMap.cpp.s
+
+.PHONY : src/HashMap/HashMap.s
+
+# target to generate assembly for a file
+src/HashMap/HashMap.cpp.s:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/HashMap/HashMap.cpp.s
+.PHONY : src/HashMap/HashMap.cpp.s
+
+src/HashMap/HashNode.o: src/HashMap/HashNode.cpp.o
+
+.PHONY : src/HashMap/HashNode.o
+
+# target to build an object file
+src/HashMap/HashNode.cpp.o:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/HashMap/HashNode.cpp.o
+.PHONY : src/HashMap/HashNode.cpp.o
+
+src/HashMap/HashNode.i: src/HashMap/HashNode.cpp.i
+
+.PHONY : src/HashMap/HashNode.i
+
+# target to preprocess a source file
+src/HashMap/HashNode.cpp.i:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/HashMap/HashNode.cpp.i
+.PHONY : src/HashMap/HashNode.cpp.i
+
+src/HashMap/HashNode.s: src/HashMap/HashNode.cpp.s
+
+.PHONY : src/HashMap/HashNode.s
+
+# target to generate assembly for a file
+src/HashMap/HashNode.cpp.s:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/HashMap/HashNode.cpp.s
+.PHONY : src/HashMap/HashNode.cpp.s
+
 src/HeapSort/HeapSort.o: src/HeapSort/HeapSort.cpp.o
 
 .PHONY : src/HeapSort/HeapSort.o
@@ -531,6 +585,12 @@ help:
 	@echo "... src/Graph/Graph.o"
 	@echo "... src/Graph/Graph.i"
 	@echo "... src/Graph/Graph.s"
+	@echo "... src/HashMap/HashMap.o"
+	@echo "... src/HashMap/HashMap.i"
+	@echo "... src/HashMap/HashMap.s"
+	@echo "... src/HashMap/HashNode.o"
+	@echo "... src/HashMap/HashNode.i"
+	@echo "... src/HashMap/HashNode.s"
 	@echo "... src/HeapSort/HeapSort.o"
 	@echo "... src/HeapSort/HeapSort.i"
 	@echo "... src/HeapSort/HeapSort.s"

@@ -6,11 +6,11 @@
 - Binary Search Tree (AVL)
 - Dictionary
 - Graph
+- Hash Map
 
 ## Planned Future Data Structures
 - Binary Search Tree (R&B)
 - Disjoint Set
-- Hash Table
 - Heap
 - Linked List
 - Queue

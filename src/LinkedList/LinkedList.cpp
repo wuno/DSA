@@ -33,7 +33,6 @@ void LinkedList<K, D>::addNode(K key, D data) {
 
 template <class K, class D>
 bool LinkedList<K, D>::deleteNode(K key) {
-
     if(head->key == key) {
         if (head->next == NULL) {
             std::cout << "Not Enough Nodes to Delete" << "\n";

@@ -16,7 +16,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/DSA.dir/src/HashMap/HashMap.cpp.o"
   "CMakeFiles/DSA.dir/src/HashMap/HashNode.cpp.o"
   "CMakeFiles/DSA.dir/src/LinkedList/LinkedList.cpp.o"
-  "CMakeFiles/DSA.dir/src/LinkedList/Node.cpp.o"
+  "CMakeFiles/DSA.dir/src/LinkedList/LinkedNode.cpp.o"
+  "CMakeFiles/DSA.dir/src/Queue/Queue.cpp.o"
   "DSA.pdb"
   "DSA"
 )

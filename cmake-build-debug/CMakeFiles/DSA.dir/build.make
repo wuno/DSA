@@ -278,18 +278,31 @@ CMakeFiles/DSA.dir/src/LinkedList/LinkedList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSA.dir/src/LinkedList/LinkedList.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wuno/Dropbox/Hack/Devops/c/DSA/src/LinkedList/LinkedList.cpp -o CMakeFiles/DSA.dir/src/LinkedList/LinkedList.cpp.s
 
-CMakeFiles/DSA.dir/src/LinkedList/Node.cpp.o: CMakeFiles/DSA.dir/flags.make
-CMakeFiles/DSA.dir/src/LinkedList/Node.cpp.o: ../src/LinkedList/Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/DSA.dir/src/LinkedList/Node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DSA.dir/src/LinkedList/Node.cpp.o -c /home/wuno/Dropbox/Hack/Devops/c/DSA/src/LinkedList/Node.cpp
+CMakeFiles/DSA.dir/src/LinkedList/LinkedNode.cpp.o: CMakeFiles/DSA.dir/flags.make
+CMakeFiles/DSA.dir/src/LinkedList/LinkedNode.cpp.o: ../src/LinkedList/LinkedNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/DSA.dir/src/LinkedList/LinkedNode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DSA.dir/src/LinkedList/LinkedNode.cpp.o -c /home/wuno/Dropbox/Hack/Devops/c/DSA/src/LinkedList/LinkedNode.cpp
 
-CMakeFiles/DSA.dir/src/LinkedList/Node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSA.dir/src/LinkedList/Node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wuno/Dropbox/Hack/Devops/c/DSA/src/LinkedList/Node.cpp > CMakeFiles/DSA.dir/src/LinkedList/Node.cpp.i
+CMakeFiles/DSA.dir/src/LinkedList/LinkedNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSA.dir/src/LinkedList/LinkedNode.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wuno/Dropbox/Hack/Devops/c/DSA/src/LinkedList/LinkedNode.cpp > CMakeFiles/DSA.dir/src/LinkedList/LinkedNode.cpp.i
 
-CMakeFiles/DSA.dir/src/LinkedList/Node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSA.dir/src/LinkedList/Node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wuno/Dropbox/Hack/Devops/c/DSA/src/LinkedList/Node.cpp -o CMakeFiles/DSA.dir/src/LinkedList/Node.cpp.s
+CMakeFiles/DSA.dir/src/LinkedList/LinkedNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSA.dir/src/LinkedList/LinkedNode.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wuno/Dropbox/Hack/Devops/c/DSA/src/LinkedList/LinkedNode.cpp -o CMakeFiles/DSA.dir/src/LinkedList/LinkedNode.cpp.s
+
+CMakeFiles/DSA.dir/src/Queue/Queue.cpp.o: CMakeFiles/DSA.dir/flags.make
+CMakeFiles/DSA.dir/src/Queue/Queue.cpp.o: ../src/Queue/Queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/DSA.dir/src/Queue/Queue.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DSA.dir/src/Queue/Queue.cpp.o -c /home/wuno/Dropbox/Hack/Devops/c/DSA/src/Queue/Queue.cpp
+
+CMakeFiles/DSA.dir/src/Queue/Queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSA.dir/src/Queue/Queue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wuno/Dropbox/Hack/Devops/c/DSA/src/Queue/Queue.cpp > CMakeFiles/DSA.dir/src/Queue/Queue.cpp.i
+
+CMakeFiles/DSA.dir/src/Queue/Queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSA.dir/src/Queue/Queue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wuno/Dropbox/Hack/Devops/c/DSA/src/Queue/Queue.cpp -o CMakeFiles/DSA.dir/src/Queue/Queue.cpp.s
 
 # Object files for target DSA
 DSA_OBJECTS = \
@@ -310,7 +323,8 @@ DSA_OBJECTS = \
 "CMakeFiles/DSA.dir/src/HashMap/HashMap.cpp.o" \
 "CMakeFiles/DSA.dir/src/HashMap/HashNode.cpp.o" \
 "CMakeFiles/DSA.dir/src/LinkedList/LinkedList.cpp.o" \
-"CMakeFiles/DSA.dir/src/LinkedList/Node.cpp.o"
+"CMakeFiles/DSA.dir/src/LinkedList/LinkedNode.cpp.o" \
+"CMakeFiles/DSA.dir/src/Queue/Queue.cpp.o"
 
 # External object files for target DSA
 DSA_EXTERNAL_OBJECTS =
@@ -332,10 +346,11 @@ DSA: CMakeFiles/DSA.dir/src/Graph/Graph.cpp.o
 DSA: CMakeFiles/DSA.dir/src/HashMap/HashMap.cpp.o
 DSA: CMakeFiles/DSA.dir/src/HashMap/HashNode.cpp.o
 DSA: CMakeFiles/DSA.dir/src/LinkedList/LinkedList.cpp.o
-DSA: CMakeFiles/DSA.dir/src/LinkedList/Node.cpp.o
+DSA: CMakeFiles/DSA.dir/src/LinkedList/LinkedNode.cpp.o
+DSA: CMakeFiles/DSA.dir/src/Queue/Queue.cpp.o
 DSA: CMakeFiles/DSA.dir/build.make
 DSA: CMakeFiles/DSA.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable DSA"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wuno/Dropbox/Hack/Devops/c/DSA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable DSA"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DSA.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

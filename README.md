@@ -8,12 +8,12 @@
 - Graph
 - Hash Map
 - Linked List
+- Queue
 
 ## Planned Future Data Structures
 - Binary Search Tree (R&B)
 - Disjoint Set
 - Heap
-- Queue
 - Set
 - Stack
 - Trie

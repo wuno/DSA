@@ -153,16 +153,22 @@
 		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/LinkedList/LinkedList.h">
 			<Option target="DSA"/>
 		</Unit>
-		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/LinkedList/Node.cpp">
+		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/LinkedList/LinkedNode.cpp">
 			<Option target="DSA"/>
 		</Unit>
-		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/LinkedList/Node.h">
+		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/LinkedList/LinkedNode.h">
 			<Option target="DSA"/>
 		</Unit>
 		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/MergeSort/MergeSort.cpp">
 			<Option target="DSA"/>
 		</Unit>
 		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/MergeSort/MergeSort.h">
+			<Option target="DSA"/>
+		</Unit>
+		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/Queue/Queue.cpp">
+			<Option target="DSA"/>
+		</Unit>
+		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/Queue/Queue.h">
 			<Option target="DSA"/>
 		</Unit>
 		<Unit filename="/home/wuno/Dropbox/Hack/Devops/c/DSA/src/QuickSort/QuickSort.cpp">

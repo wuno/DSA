@@ -447,32 +447,32 @@ src/LinkedList/LinkedList.cpp.s:
 	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/LinkedList/LinkedList.cpp.s
 .PHONY : src/LinkedList/LinkedList.cpp.s
 
-src/LinkedList/Node.o: src/LinkedList/Node.cpp.o
+src/LinkedList/LinkedNode.o: src/LinkedList/LinkedNode.cpp.o
 
-.PHONY : src/LinkedList/Node.o
+.PHONY : src/LinkedList/LinkedNode.o
 
 # target to build an object file
-src/LinkedList/Node.cpp.o:
-	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/LinkedList/Node.cpp.o
-.PHONY : src/LinkedList/Node.cpp.o
+src/LinkedList/LinkedNode.cpp.o:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/LinkedList/LinkedNode.cpp.o
+.PHONY : src/LinkedList/LinkedNode.cpp.o
 
-src/LinkedList/Node.i: src/LinkedList/Node.cpp.i
+src/LinkedList/LinkedNode.i: src/LinkedList/LinkedNode.cpp.i
 
-.PHONY : src/LinkedList/Node.i
+.PHONY : src/LinkedList/LinkedNode.i
 
 # target to preprocess a source file
-src/LinkedList/Node.cpp.i:
-	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/LinkedList/Node.cpp.i
-.PHONY : src/LinkedList/Node.cpp.i
+src/LinkedList/LinkedNode.cpp.i:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/LinkedList/LinkedNode.cpp.i
+.PHONY : src/LinkedList/LinkedNode.cpp.i
 
-src/LinkedList/Node.s: src/LinkedList/Node.cpp.s
+src/LinkedList/LinkedNode.s: src/LinkedList/LinkedNode.cpp.s
 
-.PHONY : src/LinkedList/Node.s
+.PHONY : src/LinkedList/LinkedNode.s
 
 # target to generate assembly for a file
-src/LinkedList/Node.cpp.s:
-	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/LinkedList/Node.cpp.s
-.PHONY : src/LinkedList/Node.cpp.s
+src/LinkedList/LinkedNode.cpp.s:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/LinkedList/LinkedNode.cpp.s
+.PHONY : src/LinkedList/LinkedNode.cpp.s
 
 src/MergeSort/MergeSort.o: src/MergeSort/MergeSort.cpp.o
 
@@ -500,6 +500,33 @@ src/MergeSort/MergeSort.s: src/MergeSort/MergeSort.cpp.s
 src/MergeSort/MergeSort.cpp.s:
 	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/MergeSort/MergeSort.cpp.s
 .PHONY : src/MergeSort/MergeSort.cpp.s
+
+src/Queue/Queue.o: src/Queue/Queue.cpp.o
+
+.PHONY : src/Queue/Queue.o
+
+# target to build an object file
+src/Queue/Queue.cpp.o:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/Queue/Queue.cpp.o
+.PHONY : src/Queue/Queue.cpp.o
+
+src/Queue/Queue.i: src/Queue/Queue.cpp.i
+
+.PHONY : src/Queue/Queue.i
+
+# target to preprocess a source file
+src/Queue/Queue.cpp.i:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/Queue/Queue.cpp.i
+.PHONY : src/Queue/Queue.cpp.i
+
+src/Queue/Queue.s: src/Queue/Queue.cpp.s
+
+.PHONY : src/Queue/Queue.s
+
+# target to generate assembly for a file
+src/Queue/Queue.cpp.s:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/Queue/Queue.cpp.s
+.PHONY : src/Queue/Queue.cpp.s
 
 src/QuickSort/QuickSort.o: src/QuickSort/QuickSort.cpp.o
 
@@ -654,12 +681,15 @@ help:
 	@echo "... src/LinkedList/LinkedList.o"
 	@echo "... src/LinkedList/LinkedList.i"
 	@echo "... src/LinkedList/LinkedList.s"
-	@echo "... src/LinkedList/Node.o"
-	@echo "... src/LinkedList/Node.i"
-	@echo "... src/LinkedList/Node.s"
+	@echo "... src/LinkedList/LinkedNode.o"
+	@echo "... src/LinkedList/LinkedNode.i"
+	@echo "... src/LinkedList/LinkedNode.s"
 	@echo "... src/MergeSort/MergeSort.o"
 	@echo "... src/MergeSort/MergeSort.i"
 	@echo "... src/MergeSort/MergeSort.s"
+	@echo "... src/Queue/Queue.o"
+	@echo "... src/Queue/Queue.i"
+	@echo "... src/Queue/Queue.s"
 	@echo "... src/QuickSort/QuickSort.o"
 	@echo "... src/QuickSort/QuickSort.i"
 	@echo "... src/QuickSort/QuickSort.s"

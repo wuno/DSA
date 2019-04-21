@@ -14,6 +14,7 @@
 #include "src/Graph/Graph.cpp"
 #include "src/HashMap/HashMap.cpp"
 #include "src/LinkedList/LinkedList.cpp"
+#include "src/Queue/Queue.cpp"
 
 int main()
 {
@@ -167,6 +168,35 @@ int main()
     linkedList.deleteNode(999);
     linkedList.findNode(222);
     linkedList.printNodes();
+
+    // Queue
+    Queue<int> queue;
+    // Testing Add Node
+    queue.addNode(1);
+    queue.addNode(2);
+    queue.addNode(3);
+    queue.addNode(4);
+    queue.addNode(5);
+    queue.addNode(6);
+    queue.addNode(7);
+    queue.addNode(8);
+    queue.addNode(9);
+    queue.addNode(10);
+    queue.popNode();
+    queue.popNode();
+    // Testing Remove Node
+    queue.removeNode(1);
+    queue.removeNode(2);
+    queue.removeNode(3);
+    queue.removeNode(4);
+    queue.removeNode(5);
+    queue.removeNode(6);
+    queue.removeNode(7);
+    queue.removeNode(8);
+    queue.removeNode(9);
+    queue.removeNode(10);
+    // Testing Print Queue
+    queue.printQueue();
 
     return 0;
 }

@@ -420,6 +420,60 @@ src/InsertionSort/InsertionSort.cpp.s:
 	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/InsertionSort/InsertionSort.cpp.s
 .PHONY : src/InsertionSort/InsertionSort.cpp.s
 
+src/LinkedList/LinkedList.o: src/LinkedList/LinkedList.cpp.o
+
+.PHONY : src/LinkedList/LinkedList.o
+
+# target to build an object file
+src/LinkedList/LinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/LinkedList/LinkedList.cpp.o
+.PHONY : src/LinkedList/LinkedList.cpp.o
+
+src/LinkedList/LinkedList.i: src/LinkedList/LinkedList.cpp.i
+
+.PHONY : src/LinkedList/LinkedList.i
+
+# target to preprocess a source file
+src/LinkedList/LinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/LinkedList/LinkedList.cpp.i
+.PHONY : src/LinkedList/LinkedList.cpp.i
+
+src/LinkedList/LinkedList.s: src/LinkedList/LinkedList.cpp.s
+
+.PHONY : src/LinkedList/LinkedList.s
+
+# target to generate assembly for a file
+src/LinkedList/LinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/LinkedList/LinkedList.cpp.s
+.PHONY : src/LinkedList/LinkedList.cpp.s
+
+src/LinkedList/Node.o: src/LinkedList/Node.cpp.o
+
+.PHONY : src/LinkedList/Node.o
+
+# target to build an object file
+src/LinkedList/Node.cpp.o:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/LinkedList/Node.cpp.o
+.PHONY : src/LinkedList/Node.cpp.o
+
+src/LinkedList/Node.i: src/LinkedList/Node.cpp.i
+
+.PHONY : src/LinkedList/Node.i
+
+# target to preprocess a source file
+src/LinkedList/Node.cpp.i:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/LinkedList/Node.cpp.i
+.PHONY : src/LinkedList/Node.cpp.i
+
+src/LinkedList/Node.s: src/LinkedList/Node.cpp.s
+
+.PHONY : src/LinkedList/Node.s
+
+# target to generate assembly for a file
+src/LinkedList/Node.cpp.s:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/LinkedList/Node.cpp.s
+.PHONY : src/LinkedList/Node.cpp.s
+
 src/MergeSort/MergeSort.o: src/MergeSort/MergeSort.cpp.o
 
 .PHONY : src/MergeSort/MergeSort.o
@@ -597,6 +651,12 @@ help:
 	@echo "... src/InsertionSort/InsertionSort.o"
 	@echo "... src/InsertionSort/InsertionSort.i"
 	@echo "... src/InsertionSort/InsertionSort.s"
+	@echo "... src/LinkedList/LinkedList.o"
+	@echo "... src/LinkedList/LinkedList.i"
+	@echo "... src/LinkedList/LinkedList.s"
+	@echo "... src/LinkedList/Node.o"
+	@echo "... src/LinkedList/Node.i"
+	@echo "... src/LinkedList/Node.s"
 	@echo "... src/MergeSort/MergeSort.o"
 	@echo "... src/MergeSort/MergeSort.i"
 	@echo "... src/MergeSort/MergeSort.s"

@@ -7,12 +7,12 @@
 - Dictionary
 - Graph
 - Hash Map
+- Linked List
 
 ## Planned Future Data Structures
 - Binary Search Tree (R&B)
 - Disjoint Set
 - Heap
-- Linked List
 - Queue
 - Set
 - Stack

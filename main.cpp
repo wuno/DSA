@@ -13,6 +13,7 @@
 #include "src/Dictionary/Dictionary.cpp"
 #include "src/Graph/Graph.cpp"
 #include "src/HashMap/HashMap.cpp"
+#include "src/LinkedList/LinkedList.cpp"
 
 int main()
 {
@@ -145,6 +146,27 @@ int main()
     hash.getCurrentSize();
     hash.getTableSize();
     hash.printHashTable();
+
+    // LinkedList Sort
+    LinkedList<int, int> linkedList;
+    linkedList.addNode(111, 111);
+    linkedList.addNode(222, 222);
+    linkedList.addNode(333, 333);
+    linkedList.addNode(444, 444);
+    linkedList.addNode(555, 555);
+    linkedList.addNode(666, 666);
+    linkedList.addNode(777, 777);
+    linkedList.addNode(888, 888);
+    linkedList.getLength();
+    linkedList.findNode(555);
+    linkedList.deleteNode(222);
+    linkedList.deleteNode(333);
+    linkedList.deleteNode(444);
+    linkedList.deleteNode(555);
+    linkedList.deleteNode(666);
+    linkedList.deleteNode(999);
+    linkedList.findNode(222);
+    linkedList.printNodes();
 
     return 0;
 }

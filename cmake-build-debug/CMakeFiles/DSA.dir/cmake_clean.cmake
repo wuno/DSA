@@ -18,6 +18,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/DSA.dir/src/LinkedList/LinkedList.cpp.o"
   "CMakeFiles/DSA.dir/src/LinkedList/LinkedNode.cpp.o"
   "CMakeFiles/DSA.dir/src/Queue/Queue.cpp.o"
+  "CMakeFiles/DSA.dir/src/Set/Set.cpp.o"
   "DSA.pdb"
   "DSA"
 )

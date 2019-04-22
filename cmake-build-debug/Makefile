@@ -609,6 +609,33 @@ src/SelectionSort/SelectionSort.cpp.s:
 	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/SelectionSort/SelectionSort.cpp.s
 .PHONY : src/SelectionSort/SelectionSort.cpp.s
 
+src/Set/Set.o: src/Set/Set.cpp.o
+
+.PHONY : src/Set/Set.o
+
+# target to build an object file
+src/Set/Set.cpp.o:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/Set/Set.cpp.o
+.PHONY : src/Set/Set.cpp.o
+
+src/Set/Set.i: src/Set/Set.cpp.i
+
+.PHONY : src/Set/Set.i
+
+# target to preprocess a source file
+src/Set/Set.cpp.i:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/Set/Set.cpp.i
+.PHONY : src/Set/Set.cpp.i
+
+src/Set/Set.s: src/Set/Set.cpp.s
+
+.PHONY : src/Set/Set.s
+
+# target to generate assembly for a file
+src/Set/Set.cpp.s:
+	$(MAKE) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/src/Set/Set.cpp.s
+.PHONY : src/Set/Set.cpp.s
+
 src/ShellSort/ShellSort.o: src/ShellSort/ShellSort.cpp.o
 
 .PHONY : src/ShellSort/ShellSort.o
@@ -699,6 +726,9 @@ help:
 	@echo "... src/SelectionSort/SelectionSort.o"
 	@echo "... src/SelectionSort/SelectionSort.i"
 	@echo "... src/SelectionSort/SelectionSort.s"
+	@echo "... src/Set/Set.o"
+	@echo "... src/Set/Set.i"
+	@echo "... src/Set/Set.s"
 	@echo "... src/ShellSort/ShellSort.o"
 	@echo "... src/ShellSort/ShellSort.i"
 	@echo "... src/ShellSort/ShellSort.s"

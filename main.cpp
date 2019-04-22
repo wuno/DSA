@@ -15,6 +15,7 @@
 #include "src/HashMap/HashMap.cpp"
 #include "src/LinkedList/LinkedList.cpp"
 #include "src/Queue/Queue.cpp"
+#include "src/Set/Set.cpp"
 
 int main()
 {
@@ -197,6 +198,20 @@ int main()
     queue.removeNode(10);
     // Testing Print Queue
     queue.printQueue();
+
+    // Set
+    Set set;
+    int setData[5][2] = {
+            {5, 7},
+            {4, 2},
+            {8, 1},
+            {6, 9},
+            {9, 3}
+    };
+    int V = 3;
+    int E = 8;
+    set.createGraph(V, E, setData);
+    set.printSet();
 
     return 0;
 }

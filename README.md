@@ -9,12 +9,12 @@
 - Hash Map
 - Linked List
 - Queue
+- Set
 
 ## Planned Future Data Structures
 - Binary Search Tree (R&B)
 - Disjoint Set
 - Heap
-- Set
 - Stack
 - Trie
 

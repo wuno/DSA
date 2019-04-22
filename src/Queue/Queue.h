@@ -5,7 +5,6 @@
 #ifndef DSA_QUEUE_H
 #define DSA_QUEUE_H
 #include <iostream>
-#include <cstdlib>
 
 template <class T>
 class Queue {
